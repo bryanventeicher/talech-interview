@@ -1,12 +1,8 @@
 # This is a coding exercise for talech technical screening interview.
 
-The goal is to complete the GET function in the UserController, and the getUser function in the UserService.
+The goal is to complete a Spring Boot application with an API endpoint to fetch a user based off of an id.
 
-The candidate may refer to online resources such as Spring documentation.
-
-The application can be started with `mvn spring-boot:run`
-
-If working correctly, these are the expected responses:
+Once completed, with these are the expected responses:
 
 http://localhost:9040/user/1
 ```
@@ -27,3 +23,11 @@ http://localhost:9040/user/2
   "email": "Shanna@melissa.tv"
 }
 ```
+
+There are two functions that you are asked to complete.
+1. Create a REST GET function in the UserController which takes an id as a path parameter.
+2. Complete the getUser function in the UserService, more info in the comments of that file.
+
+Start the application with `mvn spring-boot:run` and test by hitting the links above in the browser or with curl.
+
+You may refer to online resources such as Spring Boot documentation.
